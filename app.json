@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "JobSearch",
-    "slug": "JobSearch"
+    "slug": "JobSearch",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "99f9355b-1a04-47d9-84ae-bdeae4993fc8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/99f9355b-1a04-47d9-84ae-bdeae4993fc8"
+    },
+    "android": {
+      "package": "com.yogi04.JobSearch"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yogi04.JobSearch"
+    }
   }
 }
